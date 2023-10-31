@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página Web</title>
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><strong>Me gusta <b><i>comer.</i></b></strong></h1>
+
+        <ul>
+            <nav>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active " href="Recetas.html">Recetas</li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </nav>
+        </ul>
+
+    </header>
+    <hr>
+    <h2><strong>Como me relaciono con la comida.</strong></h2>
+    <hr>
+    <br>
+
+    <article>
+        <h3 style="text-align:center">Sabores.</h3>
+        <hr><br>
+        <p>Disfrutar de la comida y la diversidad de sabores es una experiencia verdaderamente enriquecedora que nos
+            permite explorar y celebrar la riqueza de las diferentes culturas en todo el mundo.</p>
+        <p>El disfrute de la comida y la diversidad de sabores nos da la oportunidad de compartir momentos especiales
+            con amigos y seres queridos.</p><br>
+    </article>
+    <br>
+    <h2 style="text-align:center">Recetas</h2>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(207, 207, 207);">
+                <col style="background-color: rgb(207, 207, 207);">
+            </colgroup>
+            <th>Dulces</th>
+            <th>Saladas</th>
+
+            <tr></tr>
+            <td>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=TmEoKUkp71k" target="_blank">Buñuelos.</a></li>
+                    <li><a href="https://www.tiktok.com/@javi.rosemberg/video/6785642463139876102?is_from_webapp=1&sender_device=pc&web_id=7278379812321248774" target="_blank">Chocotorta</a></li>
+                    <li><a href="https://chocolateaguila.com/receta/134_0_brownie-clasico" target="_blank">Brownie</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=m7sjPSzYdVs" target="_blank">Pochoclos</a></li>
+                    <li><a href="https://www.instagram.com/p/CxWQT8tJbQv/" target="_blamk">Medialunas</a></li>
+                    <li><a href="https://www.tiktok.com/@anto.arboscelli/video/7248022358403861766?is_from_webapp=1&sender_device=pc&web_id=7278379812321248774" target="_blank">Budin de pan</a></li>
+                </ul>
+            </td>
+
+            <td>
+
+                <ul>
+                    <li><a href="https://www.tiktok.com/@lucio.ledesma/video/7293727096768187653?is_from_webapp=1&sender_device=pc&web_id=7278379812321248774" target="_blank">Tequeños</a></li>
+                    <li><a href="https://cocinerosargentinos.com/carne/pastel-de-papas" target="_blank">Pastel de papa</a></li>
+                    <li>Papas fritas con oregano</li>
+                    <li><a href="https://youtu.be/PTXEPQM30Fg?si=DEDtXb4X4gKrXu6E" target="_blank">Tarta tricolor</a></li>
+                    <li><a href="https://www.instagram.com/reel/CxG6uOePhro/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank">Tostados con pan Pita</a></li>
+                    <li><a href="https://cookpad.com/ar/recetas/6080843-pizza-especial-casera" target="_blank">Pizza Especial</a></li>
+                </ul>
+
+
+            </td>
+        </table><br>
+        
+    </div><sub>Clickea un plato para ver la receta</sub>
+    <br>
+    <footer class="footer"><q>El que sabe comer, sabe esperar</q></footer>
+</body>
+
+</html>

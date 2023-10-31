@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página Web</title>
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><strong>Me gusta <b><i>comer.</i></b></strong></h1>
+
+        <ul>
+            <nav>
+
+                <li><a calsss="active"  href="index.html">Home</a></li>
+                <li><a href="Recetas.html">Recetas</li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </nav>
+        </ul>
+
+    </header>
+    <hr>
+    <h2 style="margin: 15px;"><strong>Como me relaciono con la comida.</strong></h2>
+    <br>
+
+    <hr>
+    <article class="container">
+        <h3><u>Comida.</u></h3>
+        <img class="image"src="assets/laultimacena.jpg" alt="la última cena" width="400">
+         <small><cite class="image">La última cena, Da Vinci</cite></small><br>
+        <p>La comida no es solo una necesidad básica, es una experiencia que trasciende lo puramente físico. Para mí,
+            comer es un acto de comunión, una manera de conectarme con los demás y crear lazos que van más allá de la
+            mesa. La comida no solo alimenta el cuerpo, sino también el alma y los vínculos que compartimos con amigos y
+            familiares.</p>
+        
+       <iframe class="image2"width="560" height="315" src="https://www.youtube.com/embed/Cxpm-xYSvkU?si=x_RajI7lavnQauYX"
+            title="YouTube video player"
+            allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe></
+        <p>Desde que era niño, he apreciado la magia que se desencadena alrededor de una mesa bien servida. Los aromas
+            que llenan la cocina, la charla animada y las risas que se desatan, son como hilos invisibles que nos unen.
+            Ya sea en casa, en un restaurante o en una cena al aire libre, cada bocado se convierte en un pretexto para
+            la conversación, el intercambio de historias y la creación de recuerdos.
+        </p>
+        <br>
+      
+        <br> 
+         <iframe class="image"width="560" height="315" src="https://www.youtube.com/embed/aza4205BGcg?si=Lc7T_Un-nluN9U6d"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <p>En resumen, comer y compartir con los demás es para mí una manifestación de amor, cuidado y conexión. La
+            comida es la chispa que enciende la llama de la amistad y la unidad. A través de cada comida compartida,
+            creamos recuerdos inolvidables y forjamos relaciones más fuertes. Así que, cada vez que me siento a la mesa,
+            no solo disfruto de la deliciosa comida, sino que celebro la oportunidad de unirme a otros en un vínculo que
+            es más profundo que cualquier plato servido.
+          
+        </p><br>
+    </article>
+<br>
+    <hr>
+    <footer class="footer"><q>El que sabe comer, sabe esperar</q></footer>
+</body>
+
+</html>
